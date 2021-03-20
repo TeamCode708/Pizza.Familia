@@ -1,0 +1,135 @@
+body {
+    color: white;
+}
+
+.sidepanel {
+    height: 100%; 
+    width: 0; 
+    position: fixed;
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+  
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+  
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+  
+.openbtn:hover {
+    background-color: #444;
+}
+
+.bg-image1 {
+    background-image: URL("Pizza-Home.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.bg-image2 {
+    background-image: URL("Pizza-Menu.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.bg-image3 {
+    background-image: url("Pizza-Add\ Menu.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.bg-image4 {
+    background-image: url("Pizza-Order.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#home {
+    text-align: right;
+    margin-right: 550px;
+}
+
+#font-para {
+    font-family: 'Ballet', cursive;
+    font-size: 45px;
+    margin-bottom: -45px;
+}
+
+#para_home_section {
+    font-size: 40px;
+}
+
+#para_2_home_section {
+    font-size: 30px;
+}
+
+.background-right {
+    text-align: right;
+    color: white;
+}
+
+#bg-of-home {
+    text-align: center;
+}
+
+#heading {
+    font-size: 30px;
+}
+
+#idea {
+    height: 150px;
+    width: 150px;
+}
+
+#output {
+    height: 75px;
+    width: 275px;
+    background-color: rgb(255, 255, 144);
+    visibility: hidden;
+    margin-bottom: 20px;
+}
+
+#submit_idea {
+    visibility: hidden;
+}
+
+#name {
+    margin-top: 25px;
+}
+
+#display_menu {
+    margin-top: 20px;
+}

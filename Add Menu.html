@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Pizza Familia :: Pizzeria :: Add Menu</title>
+        <link rel="stylesheet" href="Styling.css">
+        <script src="Functions.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ballet&display=swap" rel="stylesheet">
+    </head>
+    <body class="bg-image3">
+
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="Home.html">Home</a>
+            <a href="View Menu.html">View Menu</a>
+            <a href="Add Menu.html">Add Menu</a>
+            <a href="Suggestions.html">Customer's Suggestions</a>
+            <a href="Order.html">Order</a>
+        </div>
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
+
+        <center>
+            <img src="Add Idea.webp" id="idea" onclick="addPizza()">
+            <h2 onclick="addPizza()">Recommend A Pizza</h2>
+                <div id="output">
+                    <input type="text" id="name" placeholder="Suggest Pizza Name">
+                </div>
+            <button id="submit_idea" type="submit" onclick="submit_idea()">Submit My Idea</button>
+            <div id="display_menu">
+                
+            </div> 
+        </center>
+    </body>
+</html>
